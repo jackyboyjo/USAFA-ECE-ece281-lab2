@@ -79,6 +79,7 @@ c_Sa <= (i_D(3) and i_D(2) and not i_D(1))
  
 c_Sg <= (not i_D(3) and i_D(2) and i_D(1) and i_D(0))
     or (not i_D(3) and not i_D(2) and not i_D(1));
+    
 c_Sb <= '1' when (  (i_D = x"5") or
                     (i_D = x"E") or 
                     (i_D = x"B") or 
